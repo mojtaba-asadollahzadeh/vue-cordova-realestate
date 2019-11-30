@@ -5,14 +5,15 @@ module.exports = {
       fallbackLocale: 'en',
       localeDir: 'locales',
       enableInSFC: false
-    }
+    },
+    cordovaPath: 'src-cordova'
   },
 
   baseUrl: '',
-  outputDir: 'cordova_app/www',
+  outputDir: 'src-cordova/www',
   assetsDir: undefined,
   runtimeCompiler: undefined,
   productionSourceMap: undefined,
   parallel: undefined,
-  css: undefined
+  css: undefined,
 }
